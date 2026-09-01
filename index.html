@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>кроки, необхідні для використання Handlebars👇</h2>
+    <ul>
+      <li>Крок 1: Підключення бібліотеки Handlebars до вашого проєкту.</li>
+      <li>Крок 2: Створення шаблону Handlebars.</li>
+      <li>Крок 3: Створення даних для шаблону.</li>
+      <li>Крок 4: Компіляція шаблону Handlebars</li>
+      <li>Крок 5: Використання шаблону Handlebars.</li>
+    </ul>
+    <div class="userContainer"></div>
+    <template id="userTemplete">
+      <div>
+        <h2>Name:{{name}}</h2>
+        <p>surname:{{surname}}</p>
+      </div>
+    </template>
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
